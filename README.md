@@ -3,4 +3,4 @@
 
 HTML 개발자의 코딩테스트 연습 레포지토리 입니다
 
-[제주코딩 베이스캠프 100일 챌린지 영상](https://youtube.com/playlist?list=PLkfUwwo13dlWZxOdbvMhkzhAowaiEjuGS&si=cF7D2s-3_F5yz3Ul)을 기반으로 풀이됩니다
+[JavaScript 알고리즘 100일 챌린지](https://youtube.com/playlist?list=PLkfUwwo13dlWZxOdbvMhkzhAowaiEjuGS&si=cF7D2s-3_F5yz3Ul)을 기반으로 풀이됩니다
