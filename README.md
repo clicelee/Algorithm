@@ -3,4 +3,4 @@
 
 HTML 개발자의 코딩테스트 연습 레포지토리 입니다
 
-[JavaScript 알고리즘 100일 챌린지](https://youtube.com/playlist?list=PLkfUwwo13dlWZxOdbvMhkzhAowaiEjuGS&si=cF7D2s-3_F5yz3Ul)을 기반으로 풀이됩니다
+의미 있는 문제는 [개인 블로그](https://clice.tistory.com/category/CS/%EC%BD%94%ED%85%8C%20%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4)에 정리합니다
