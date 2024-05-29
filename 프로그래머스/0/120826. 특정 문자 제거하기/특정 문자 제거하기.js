@@ -1,0 +1,1 @@
+const solution=(my_string, letter)=>[...my_string].filter((value,index,arr)=> value!=letter).join('');
