@@ -5,3 +5,5 @@ const solution=(dot)=>{
     else if(multi<0) return dot[0]>0?4:2;
     else return "error";
 }
+/* 더 좋은 풀이 */
+//    return dot[0] > 0 ? (multi ? 1 : 4) : (multi ? 3 : 2); // 사분면을 결정하여 반환
