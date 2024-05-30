@@ -10,3 +10,6 @@ const isNumber=(value)=>{
 //Test case
 // console.log(isNumber('4'));
 // console.log(isNumber('hello'));
+
+//이전 문제: 프로그래머스/0/120893. 대문자와 소문자 에서 배운 for of 문을 사용해보았다
+//for of 문에서 원소는 '문자'로 취급되기 때문에, 숫자로서 검증을 할 때는 Number()을 사용해야 한다.<< ⭐️ 이 부분에서 시간 많이 썼다
