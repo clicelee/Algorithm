@@ -6,7 +6,7 @@ const solution=(str)=>{
 }
 const isUpper=(string)=> ((string===string.toUpperCase())?true:false)
 
-
+//위 코드 성능이 매우 안 좋은것 같아 기분이 좋지 않음
 // /* 더 좋은 풀이 */
 //     var answer = '';
 //     for (let c of my_string) answer += c === c.toLowerCase() ? c.toUpperCase() : c.toLowerCase();
