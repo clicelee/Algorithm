@@ -3,3 +3,9 @@ const solution=(my_string)=>{
     let newString=my_string.split('');
     return newString.filter(n=>(n!=='a')&&(n!=='e')&&(n!=='i')&&(n!=='o')&&(n!=='u')).join('');
 }
+
+/* 더 좋은 풀이 */
+//정규표현식 사용
+// const solution=(my_string)=>{
+//     return my_string.replace(/[aeiou]/g, '');
+// }
