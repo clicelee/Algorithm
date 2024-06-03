@@ -11,3 +11,19 @@ const solution=(n)=>{
     return answer;
 }
 
+
+/* better solution */
+// 배열 대신 객체 Set을 사용한다
+// Set은 중복된 값을 허용하지 않는다
+// 예를 들어 n=36, n=6인 경우, add(6)과 add(36/6)이 되어 6이 두 번 추가될 수 있지만 set에서는 중복을 허용하지 않기 때문에 자동으로 하나만 저장된다
+
+// const solution=(n)=>{
+//     let s = new Set();
+//     for (let i = 1; i <= Math.sqrt(n); i++) {
+//         if (n%i === 0) {
+//             s.add(i);
+//             s.add(n/i);
+//         }
+//     }
+//     return [...s].sort((a,b)=>a-b);
+// }
