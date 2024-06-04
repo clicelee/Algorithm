@@ -1,0 +1,1 @@
+const solution=(order)=> order.toString().replace(/[^369]/g, '').length;
