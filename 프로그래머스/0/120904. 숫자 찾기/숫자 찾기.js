@@ -21,3 +21,8 @@ const solution=(num,k)=>{
 //     }
 // }
 
+/* better solution */
+//이 문제는 indexOf(찾고자하는값)를 사용하는 문제이다
+// function solution(num, k) {
+//     return ("0" + num).indexOf(k);
+// }
