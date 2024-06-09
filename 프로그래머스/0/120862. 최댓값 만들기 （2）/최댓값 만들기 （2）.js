@@ -8,3 +8,9 @@ const solution=(numbers)=>{
     let head=n[last]*n[last-1];
     return (head>tail)?head:tail;
 }
+
+// Math.max를 이용한 조금 더 간결한 풀이
+// function solution(numbers) {
+//     numbers.sort((a, b) => a - b);
+//     return Math.max(numbers[0]*numbers[1], numbers[numbers.length-1]*numbers[numbers.length-2]);
+// }
