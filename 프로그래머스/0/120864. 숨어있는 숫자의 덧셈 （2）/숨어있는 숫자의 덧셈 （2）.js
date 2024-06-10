@@ -3,3 +3,10 @@ const solution=(my_string)=>{
     return (numbers.map(Number).reduce((a,b)=>a+b,0)); //.map(Number)로 변환, 이후 reduce 함수로 더하기
 }
 
+
+/* 시행착오들 */
+    // array=[...my_string].filter(n=>((typeof n)=='number'));
+    // array=[...my_string];
+    // console.log(array);
+    // newArray=array.map(Number);
+    // return newArray.filter(\d);
