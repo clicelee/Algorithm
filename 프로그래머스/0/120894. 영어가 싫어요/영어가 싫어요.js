@@ -9,3 +9,6 @@ const solution=(numbers)=>{
     for(let i of arrayedNumber) answer.push(englishAndNumber[i]);
     return parseInt(answer.join(''));
 }
+
+//Replace를 이용해 바로 바꾸는 편이 더 효율적인듯
+//참고: https://clice.tistory.com/entry/JS-영어가-싫어요-프로그래머스-120894
