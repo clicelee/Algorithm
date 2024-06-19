@@ -22,19 +22,3 @@ const checkAndMove=(pos, direction)=>{ //현재 위치, 이동 방향을 파라�
     
     else direction == "down"? pos.y-- : pos.y++;
 };
-
-
- /* better solution */
-// 스위치를 이용한다
-// function solution(keyinput, board) {
-//     let res = [0,0];
-//     for (let p of keyinput) {
-//         switch(p){
-//             case 'left': if (-res[0] < board[0]/2-1) res[0]--; break;
-//             case 'right': if (res[0] < board[0]/2-1) res[0]++; break;
-//             case 'up': if (res[1] < board[1]/2-1) res[1]++; break;
-//             case 'down': if (-res[1] < board[1]/2-1) res[1]--; break;
-//         }
-//     }
-//     return res;
-// }
