@@ -10,3 +10,23 @@ const solution=(s)=>{
     }
     return sum;
 }
+
+/* better solution*/
+//스택을 사용하게 되면, z가 등장할때마다 그냥 pop만 구현하면 되므로 조금 더 효율적인 메모리 사용이 가능하다
+// const solution = (s) => {
+//     const elements = s.split(' ');
+//     let sum = 0;
+//     const stack = [];
+//     for (const element of elements) {
+//         if (element === "Z") {
+//             if (stack.length > 0) {
+//                 sum -= stack.pop();
+//             }
+//         } else {
+//             const num = Number(element);
+//             sum += num;
+//             stack.push(num);
+//         }
+//     }
+//     return sum;
+// }
