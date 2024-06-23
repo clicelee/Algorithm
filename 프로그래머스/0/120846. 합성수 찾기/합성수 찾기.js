@@ -1,13 +1,22 @@
-const solution=(n)=>{
-    let count=0;
-    for(let i=2; i<=n; i++){
-        for(let j=2; j<i;j++){
-            if(i%j==0) {
-                count++; 
-                break;
-            }
-        }
+const solution = (n) => {
+  const isComposite = (num) => {
+    let count = 0;
+    for (let i = 1; i <= num; i++) {
+      if (num % i === 0) {
+        count++;
+      }
+      if (count > 2) {
+        return true;
+      }
     }
-    return count;
+    return false;
+  }
+
+  let compositeCount = 0;
+  for (let i = 4; i <= n; i++) {
+    if (isComposite(i)) {
+      compositeCount++;
+    }
+  }
+  return compositeCount;
 }
-      
