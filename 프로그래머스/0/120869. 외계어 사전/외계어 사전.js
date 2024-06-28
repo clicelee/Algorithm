@@ -12,6 +12,15 @@ const solution=(spell, dic)=>{
 }
 
 
+/* better solution */
+function solution(p, d) {
+    return d.some(s => p.sort().toString() == [...s].sort().toString()) ? 1 : 2;
+}
+
+
+
+/* 시도했던 방법*/
+
 
 // function solution(spell, dic) {
 //     var answer = 0;
