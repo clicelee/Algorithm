@@ -7,3 +7,7 @@ const solution=(s)=>{
     return count===0?true:false;
 }
 
+
+/*better solution */
+// function solution=(s)=> s.toUpperCase().split("P").length === s.toUpperCase().split("Y").length
+// x를 기준으로 나누었을때 조각과, y를 기준으로 나누었을떄 조각의 개수가 같다면, 둘의 개수는 같은것이다
