@@ -13,3 +13,14 @@ const solution=(array)=>{
     }
     else return sortedArray[0][0];    
 }
+
+
+/*other solution */
+
+function solution(array) {
+    let m = new Map();
+    for (let n of array) m.set(n, (m.get(n) || 0)+1); //여기까지는 같음
+    m = [...m].sort((a,b)=>b[1]-a[1]); //여기까지도 같음
+    return m.length === 1 || m[0][1] > m[1][1] ? m[0][0] : -1; //여기서부터 훨씬 간결하다
+    //삼항 연산자를 사용하여 정렬된 배열의 길이가 1이거나 첫 번째 값의 빈도가 두 번째 값의 빈도보다 큰 경우 최빈값을 반환하고, 그렇지 않으면 -1을 반환한다
+}
