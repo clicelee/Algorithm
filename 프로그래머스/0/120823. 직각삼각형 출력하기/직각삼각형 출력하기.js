@@ -17,3 +17,18 @@ rl.on('line', function (line) {
             
     }
 });
+
+/* better solution */
+// 1. solution함수로 따로 뺴준다
+// 2. repeat 사용
+// rl.on('line', function (line) {
+//     input = line.split(' ');
+// }).on('close', function () {
+//     solution(Number(input[0])); //soulution 함수로 따로 뺸 부분
+// });
+
+// function solution(n) {
+//     for(let i = 1; i < n + 1; i++) {
+//         console.log('*'.repeat(i)); //repeat 메서드 사용
+//     }
+// }
