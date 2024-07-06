@@ -1,0 +1,1 @@
+const solution=(a, b)=> (a+b) / 2 * (Math.abs(b-a)+1);
