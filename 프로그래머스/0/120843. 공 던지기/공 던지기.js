@@ -1,4 +1,1 @@
-function solution(numbers, k) {
-    var answer = 0;
-    return answer;
-}
+const solution = (numbers, k) => numbers[(2 * (k - 1)) % numbers.length] //처음 제출 했던 코드
