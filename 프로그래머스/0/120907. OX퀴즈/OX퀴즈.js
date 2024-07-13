@@ -1,0 +1,2 @@
+const calculate=(a) => (a[1]=='+')?((Number(a[0])+Number(a[2])===Number(a[4]))?"O":"X"):((Number(a[0])-Number(a[2])===Number(a[4]))?"O":"X")
+const solution=(quiz) => quiz.map(i=>calculate(i.split(' ')));
