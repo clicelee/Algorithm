@@ -17,7 +17,3 @@ const solution = (babbling) => {
 
     return count;
 }
-
-// 테스트
-console.log(solution(["aya", "yee", "u", "maa", "wyeoo"])); // 1
-console.log(solution(["ayaye", "uuuma", "ye", "yemawoo", "ayaa"])); // 3
