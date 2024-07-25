@@ -23,5 +23,8 @@ const decimalToBinary = (decimal) => {
     }
     return binary;
 }
-
-
+/* other solution */
+function solution(bin1, bin2) {
+    return (parseInt(bin1, 2) + parseInt(bin2, 2)).toString(2)
+}
+// `parseInt(bin1,2) bin1을 2진수로 읽어들이고, 10진수로 변환하여라
