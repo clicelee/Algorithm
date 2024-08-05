@@ -1,0 +1,1 @@
+const solution = (x, n) => Array(n).fill(x).map((e,i)=>e+i*x)
