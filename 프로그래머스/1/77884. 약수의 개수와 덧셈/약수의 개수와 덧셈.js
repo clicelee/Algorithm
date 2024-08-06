@@ -15,3 +15,17 @@ function solution(left, right) {
         findDivisors(i)%2===0?answer+=i:answer-=i;
     return answer;
 }
+
+/*better solution */
+//제곱근이 정수면 약수의 개수가 홀수다
+// function solution(left, right) {
+//     var answer = 0;
+//     for (let i = left; i <= right; i++) {
+//         if (Number.isInteger(Math.sqrt(i))) {
+//             answer -= i;
+//         } else {
+//             answer += i;
+//         }
+//     }
+//     return answer;
+// }
