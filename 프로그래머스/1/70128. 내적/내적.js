@@ -1,0 +1,1 @@
+const solution = (a, b) => Array.from({ length:a.length }, (_, index) => index).reduce((arr,cur)=> arr+a[cur]*b[cur],0)
