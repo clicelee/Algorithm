@@ -7,3 +7,12 @@ const solution=(s) => {
     }
     return smallAnswer.sort((a, b) => b.localeCompare(a)).join('') + bigAnswer.sort((a, b) => b.localeCompare(a)).join('')
 }
+
+/* better solution */
+// function solution(s) {
+//   return s
+//     .split("")
+//     .sort()
+//     .reverse()
+//     .join("");
+// }
