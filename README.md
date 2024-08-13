@@ -6,7 +6,7 @@ HTML 개발자의 코딩테스트 연습 레포지토리 입니다
 
 <img src="https://github.com/clicelee/Algorithm/assets/131771046/2685d8d7-266f-495a-8bc8-5ee16e3cad1f" alt="IMG_2200" width="400" >
 
-| 분류 | 기간 |
+
+| 챌랜지 | 기간 |
 |---------|--------|
-| 프로그래머스 lv0   | 24/5/20~  |
-| 프로그래머스 lv1   | 24/6/30~  |
+| 1일 1코테   | 2024.5.20~8.10<br>(83 days streak)  |
