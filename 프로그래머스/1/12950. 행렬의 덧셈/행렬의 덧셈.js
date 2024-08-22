@@ -1,0 +1,1 @@
+const solution=(arr1, arr2)=> arr1.map((current, i) => current.map((c, j) => c + arr2[i][j]))
