@@ -1,0 +1,1 @@
+const solution = (price, money, count) => ((1+count)*count*price/2-money>0)?(1+count)*count*price/2-money:0
