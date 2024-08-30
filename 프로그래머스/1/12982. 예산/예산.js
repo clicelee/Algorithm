@@ -9,3 +9,12 @@ const solution=(d, budget) => {
     }    
     return count;
 }
+
+
+/* better solution */
+//reduce 사용하기
+function solution(d, budget) {
+    return d.sort((a, b) => a - b).reduce((count, price) => {
+        return count + ((budget -= price) >= 0);
+    }, 0);
+}
