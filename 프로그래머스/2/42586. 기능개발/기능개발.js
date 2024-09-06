@@ -22,3 +22,5 @@
     answer.push(counter); //마지막 count 넣기
     return answer;
 }
+
+/* my solution is same as the best solution! XD */
