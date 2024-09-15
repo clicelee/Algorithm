@@ -11,6 +11,8 @@ function solution(n, m) {
 /* best solution */
 function gcdlcm(a, b) {
     var r;
-    for(var ab= a*b;r = a % b;a = b, b = r){}
+    for(var ab= a*b;r = a % b;a = b, b = r){} //유클리드 호제법
     return [b, ab/b];
 }
+
+
