@@ -1,0 +1,1 @@
+const solution=(arr, delete_list) =>arr.filter(i=>!delete_list.includes(i));
