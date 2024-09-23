@@ -1,0 +1,1 @@
+const solution= (food) => String([...food.map(i=>(i%2!=0)?(i-1)/2:(i/2)).map((e,i)=>(e!=0)?String(i).repeat(e):''),0,...food.map(i=>(i%2!=0)?(i-1)/2:(i/2)).map((e,i)=>(e!=0)?String(i).repeat(e):'').reverse()].join(''));
