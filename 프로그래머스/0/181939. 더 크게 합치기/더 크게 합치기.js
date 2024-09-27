@@ -1,0 +1,1 @@
+const solution=(a, b) => Number([...(a+''+b)].join(''))>Number([...(b+''+a)].join(''))?(Number([...(a+''+b)].join(''))):Number([...(b+''+a)].join(''));
