@@ -1,1 +1,1 @@
-const solution=(a, b) => Number([...(a+''+b)].join(''))>Number([...(b+''+a)].join(''))?(Number([...(a+''+b)].join(''))):Number([...(b+''+a)].join(''));
+const solution=(a, b) => Math.max(Number([...(a+''+b)].join('')),Number([...(b+''+a)].join('')))
