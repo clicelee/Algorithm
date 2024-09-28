@@ -1,0 +1,1 @@
+const solution=(q, r, c)=> [...c].filter((e,i)=>(i%q)==r).join('')
