@@ -5,3 +5,6 @@ const solution=(A,B)=>{
     for(let i=0; i<A.length; i++) answer+=A[i]*B[i];
     return answer;
 }
+/* better solution */
+//reduce를 사용할 수 있다
+A.reduce((total, val, idx) => total + val * B[idx], 0) //total 초기값을 0으로 설정
