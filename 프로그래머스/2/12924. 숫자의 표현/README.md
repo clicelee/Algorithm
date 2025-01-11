@@ -1,3 +1,4 @@
+![](https://i.imgur.com/aHfBgZd.png)
 # [level 2] 숫자의 표현 - 12924 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12924) 
