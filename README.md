@@ -17,3 +17,4 @@ A.reduce(total, value, index)=>  total + val * B[idx], 0)
 //total에 value(A[i]를 더하고 B[i]도 더한다. total의 초기값은 0이다
 ```
 -->
+### Since May 19, 2024
