@@ -1,4 +1,4 @@
-# Algorithm
+<!-- # Algorithm
 
 HTML 개발자의 코딩테스트 연습 레포지토리 입니다
 
@@ -16,3 +16,4 @@ reduce메서드 사용법
 A.reduce(total, value, index)=>  total + val * B[idx], 0)
 //total에 value(A[i]를 더하고 B[i]도 더한다. total의 초기값은 0이다
 ```
+-->
